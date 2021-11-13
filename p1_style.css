@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.top{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(38, 38, 38);
+    background-image: url(p1_image.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.top .sign{
+    width: 80%;
+    height: 80px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top .sign h1 a{
+    text-decoration: none;
+    font-size: 50px;
+    color:crimson;
+}
+
+.top .lab ul li{
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.top .lab ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color:skyblue;
+}
+
+.top .lab ul li a :hover{
+    color:plum;
+}
+
+.top .mid{
+    position: absolute;
+    left: 3%;
+    top: 15%;
+    color: lavender;
+}
+
+.top .port{
+    margin: 40px;
+    position: absolute;
+    right: 70%;
+    top: 25%;
+    color: mediumslateblue;
+}
+
+.top .port ul li{
+    margin: 20px;
+}
+
+.top .port ul li a{
+    text-decoration: none;
+    color:white;
+}
+
+.top .port ul li a :hover{
+    color: deeppink;
+}
